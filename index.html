@@ -3,20 +3,33 @@
   <head>
 
 <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@2.1.1/dist/aframe-extras.min.js"></script>
-    
+
   </head>
     <body>
     <a-scene>
       <a-sky color="lightblue"></a-sky>
       
-       <!-- Put this inside the <a-scene> -->
-      <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
-      rotation="-90 0 90"
-      ></a-entity>
-                 
+
+
+      <a-entity ply-model="src: Ribcage.ply" position="4.40131 0.79987 0.71564" rotation="-90 -175.09590219197958 175.1520520559024" scale="0.5 1 0.5">
+      </a-entity>
+      </a-entity>
+
+      <a-entity ply-model="src: O-Project.ply" position="0 -1.5 0" rotation="-90 0 0"></a-entity>
+
+      <a-entity camera="" position="7.48962 2.12091 -5.83373" wasd-controls="" rotation="-41.59673592649779 -2.521014298575735 0" look-controls="" aframe-injected="" data-aframe-inspector-original-camera=""></a-entity>
+
+      </a-entity>
+      
+      <a-entity ply-model="src: MOUNTAIN-1.ply" position="4.6505 -2.17241 -12.6432" rotation="-90.00021045914971 -90 0" scale="2 2 2"></a-entity>
+
+      <a-entity ply-model="src: MOUNTAIN-1.ply" position="7.90312 -2.17241 -0.02983" rotation="-90 90 0" scale="2 2 2"></a-entity>
+
+
+      <a-entity ply-model="src: Temple.ply" position="8.11682 -1.18502 -4.50166" rotation="-90 90 180" scale="1.5 1.5 1.5"></a-entity>
+
     </a-scene>
   </body>
 </html>
